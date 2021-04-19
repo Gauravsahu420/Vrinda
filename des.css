@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+}
+.background{
+    height: auto;
+    width: 100%;
+}
+#top{
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    color: white;
+}
+.ancor{
+    text-decoration: none;
+    position: absolute;
+    top:1%;
+    color: white;
+    left:70%;
+}

@@ -1,0 +1,228 @@
+*{
+	margin:0%;
+}
+header{
+	font-size:45px;
+	left:40%;
+	position:absolute;
+	top:5%;
+	font-family: 'Barriecito';
+}
+
+.image{
+	left:10%;
+	top:31%;
+	vertical-align:-2px;
+	line-height:1.5em;
+}
+.dropdown{
+	position:absolute;
+	top:25%;
+	left:40%;
+	display:inline-block;	
+}
+.dropdown_two{
+	position:absolute;
+	top:25%;
+	left:45%;
+	display:inline-block;	
+}
+.dropdown_three{
+	position:absolute;
+	top:25%;
+	left:53%;
+	display:inline-block;	
+}
+.dropdown_four{
+	position:absolute;
+	top:25%;
+	left:59%;
+	display:inline-block;	
+}
+.dropdown_button{
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	padding:10px 15px 40px 15px;
+	border:none;
+	font-family: 'Cabin Condensed';
+	border-radius:10px;
+}
+.dropdown_button:hover{
+	color:#CD853F;
+}
+.dropdown_menu{
+	background-color:white;
+	display:none;
+	position: absolute;
+	top:270%;
+}
+.dropdown_menu a:hover{
+	color:#CD853F;
+}
+.dropdown_menu a{
+	text-decoration:none;
+	font-size:20px;
+	color:black;
+	font-family: 'Cabin Condensed';
+	padding:15px 165px 15px 15px;
+	display:block;
+}
+.dropdown:hover .dropdown_menu {
+	display:block;
+	animation-name:example;
+	animation-duration:0.3s;
+}
+.dropdown_two:hover .dropdown_menu {
+	display:block;
+	animation-name:example;
+	animation-duration:0.3s;
+}
+.dropdown_three:hover .dropdown_menu {
+	display:block;
+	animation-name:example;
+	animation-duration:0.3s;
+}
+.dropdown_four:hover .dropdown_menu {
+	display:block;
+	animation-name:example;
+	animation-duration:0.3s;
+}
+@keyframes example {
+  0%   {background-color:white; left:0px; top:110px;}
+  100% {background-color:white; left:0px; top:63px;}
+}
+.background{
+    height: auto;
+    width: 100%;
+}
+.arrival_date{
+	position:absolute;
+	top:80%;
+	left:17%;
+	padding:13px;
+	font-family: 'Julius Sans One';
+	background-color:white;
+	border:none;
+}
+.departre_date{
+	position:absolute;
+	top:80%;
+	left:35.5%;
+	padding:13px;
+	font-family: 'Julius Sans One';
+	background-color:white;
+	border:none;
+}
+.adult{
+	position:absolute;
+	top:80%;
+	left:54%;
+	background-color:white;
+	border:none;
+	font-family: 'Julius Sans One';
+	text-align:center;
+	font-size:25px;
+	padding:26.5px 34px;
+
+}
+.adult p{
+	font-size:20px;
+	color: #CD853F;
+}
+.adult h1{
+	padding-top:10px;
+}
+.adult_two{
+	position:absolute;
+	top:80%;
+	left:62.5%;
+	background-color:white;
+	font-family: 'Julius Sans One';
+	border:none;
+	text-align:center;
+	font-size:25px;
+	padding:26.5px 18px;
+}
+.adult_two p{
+	font-size:20px;
+	color:#CD853F;;
+}
+.adult_two h1{
+	padding-top:10px;
+}
+.arrival_date p{
+	padding:15px;
+	color: #CD853F;	
+}
+.departre_date p{
+	padding:15px;
+	color: #CD853F;	
+}
+.check{
+	position:absolute;
+	top:80%;
+	left:71%;
+	background-color:#CD853F;
+	font-family: 'Julius Sans One';
+	border:none;
+	color:white;
+	text-align:center;
+	font-size:18px;
+	line-height:30px;
+	letter-spacing:2px;
+	padding:39.5px;
+}
+.content{
+	position:absolute;
+	left:47%;
+	top:125%;
+}
+.content h1{
+	font-family: 'Alike';
+	font-size:45px;
+}
+.content img{
+	height:5%;
+	margin-left:11%;
+	margin-top:2%;
+	width:12%;
+}
+.content p{
+	font-family: 'Julius Sans One';
+	font-size:20px;
+	font-weight:bold;
+	margin-top:2%;
+	margin-left:-29%;
+	line-height:30px;
+	
+}
+#container{
+	height:100rem;
+	width:118.85rem;
+	background-color:#e0e0eb;
+}
+.gallery{
+	height:27%;
+	width:19%;
+	background-color:black;
+	
+}
+
+.gallery .tab{
+	height:60%;
+	width:100%;
+	overflow:hidden;
+}
+.gallery .tab img{
+	
+	
+    transition: transform .25s, visibility .25s ease-in;
+	
+}
+
+
+.gallery:hover img {
+  transform: scale(1.1);
+  
+}
